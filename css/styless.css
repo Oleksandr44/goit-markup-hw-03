@@ -73,6 +73,13 @@ ul {
   margin-right: 10px;
 }
 
+.contacts {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  padding: 24px 0;
+}
+
 .menu-contacts {
   list-style-type: none;
   margin: 0;
