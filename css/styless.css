@@ -287,6 +287,21 @@ ul {
 /*OUR TEAM*/
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.title-our-team {
+  margin-bottom: 72px;
+}
+
+.our-team-points {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .list-our-team {
