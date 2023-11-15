@@ -36,8 +36,7 @@ p {
   margin-bottom: 0;
 }
 
-ul,
-li {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -46,10 +45,8 @@ li {
 .container {
   width: 1158px;
   max-width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /*HEADER*/
@@ -63,6 +60,8 @@ li {
 }
 
 .nav-conteiner {
+  display: flex;
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -94,6 +93,7 @@ li {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-link {
