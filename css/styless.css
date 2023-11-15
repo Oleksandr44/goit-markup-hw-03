@@ -157,6 +157,8 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  display: flex;
+  gap: 40px;
 }
 
 .link-contacts:hover,
