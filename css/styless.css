@@ -76,7 +76,6 @@ ul {
 .contacts {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
   padding: 24px 0;
 }
 
@@ -107,6 +106,7 @@ ul {
 
 .logo-link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .logo-link:hover,
@@ -126,6 +126,11 @@ ul {
 }
 
 /*Nav Style*/
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .link-nav {
   color: #2e2f42;
   font-family: Roboto;
