@@ -45,6 +45,43 @@ li {
 
 .container {
   width: 1158px;
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*HEADER*/
+.header-class {
+  display: flex;
+}
+
+.container-menu {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-conteiner {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-conteiner li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-contacts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-contacts li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 /*Logo Style*/
@@ -127,7 +164,7 @@ li {
   color: #404bbf;
 }
 
-/*Hero*/
+/*HERO*/
 .hero {
   background-color: #2e2f42;
 }
@@ -159,7 +196,7 @@ li {
   cursor: pointer;
 }
 
-/*Our positive qualities*/
+/*OUR POSITIVE QUALITIES*/
 .sectoin-title {
   color: #2e2f42;
   text-align: center;
@@ -192,7 +229,7 @@ li {
   letter-spacing: 0.32px;
 }
 
-/*Our Team*/
+/*OUR TEAM*/
 .our-team {
   background-color: #f4f4fd;
 }
@@ -201,7 +238,7 @@ li {
   background-color: #ffffff;
 }
 
-/*Footer*/
+/*FOOTER*/
 .end {
   background-color: #2e2f42;
 }
