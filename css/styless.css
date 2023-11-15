@@ -61,6 +61,7 @@ ul {
 
 .nav-conteiner {
   display: flex;
+  gap: 40px;
   align-items: center;
   list-style-type: none;
   margin: 0;
@@ -94,6 +95,7 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-link {
