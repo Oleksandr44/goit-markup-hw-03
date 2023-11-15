@@ -83,6 +83,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 40px;
 }
 
 .menu-contacts li {
@@ -106,7 +108,6 @@ ul {
 
 .logo-link {
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .logo-link:hover,
